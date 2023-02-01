@@ -1,4 +1,4 @@
-provider "aws"{
+	provider "aws"{
 	region = "ap-south-1"
 	}
 	
@@ -7,11 +7,12 @@ provider "aws"{
 		ami = "ami-0f3443fa43a3a92d2"
 		instance_type = "t2.micro"
 		key_name= "pravidevopssepbatch2022"
-		security_group = ["launch-wizard-6"]
+		security_groups = ["launch-wizard-6"]
 		tags = {
 		Name = "tomcatserver"
 		}
 	
 	}
+
 
 
