@@ -8,7 +8,7 @@ provider "aws"{
 		instance_type = "t2.micro"
 		key_name= "pravidevopssepbatch2022"
 		security_group = ["launch-wizard-6"]
-		tags{
+		tags = {
 		Name = "tomcatserver"
 		}
 	
