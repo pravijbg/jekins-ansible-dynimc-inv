@@ -9,7 +9,7 @@ provider "aws"{
 		key_name= "pravidevopssepbatch2022"
 		security_groups = ["launch-wizard-6"]
 		tags = {
-		Name = "TerraformServer"
+		Name = "tomcatserver"
 		}
 	
 	}
